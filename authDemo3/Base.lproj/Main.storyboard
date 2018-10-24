@@ -30,6 +30,9 @@
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XIw-LH-jar">
                                         <rect key="frame" x="58.5" y="60.5" width="38" height="30"/>
                                         <state key="normal" title="Login"/>
+                                        <connections>
+                                            <action selector="loginTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="KbF-wg-47n"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                             </stackView>
